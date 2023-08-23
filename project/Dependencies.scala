@@ -10,6 +10,7 @@ object Dependencies {
     val http4s        = "1.0.0-M40"
     val skunk         = "0.6.0"
     val lepus         = "0.4.1"
+    val `named-codec` = "0.1.0"
     val munit         = "1.0.0-M7"
     val `munit-cats`  = "1.0.7"
   }
@@ -49,6 +50,10 @@ object Dependencies {
   lazy val lepus: Seq[ModuleID] = Seq(
     "dev.hnaderi" %% "lepus-client"
   ).map(_ % Version.lepus)
+
+  lazy val `named-codec`: Seq[ModuleID] = Seq(
+    "dev.hnaderi" %% "named-codec"
+  ).map(_ % Version.`named-codec`)
 
   lazy val munit: Seq[ModuleID] = Seq(
     "org.scalameta" %% "munit",
