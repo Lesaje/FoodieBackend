@@ -3,16 +3,17 @@ import sbt._
 object Dependencies {
 
   object Version {
-    val cats          = "2.10.0"
-    val `cats-effect` = "3.5.1"
-    val `pureconfig`  = "0.17.4"
-    val fs2           = "3.8.0"
-    val http4s        = "1.0.0-M40"
-    val skunk         = "0.6.0"
-    val lepus         = "0.4.1"
-    val `named-codec` = "0.1.0"
-    val munit         = "1.0.0-M7"
-    val `munit-cats`  = "1.0.7"
+    val cats                = "2.10.0"
+    val `cats-effect`       = "3.5.1"
+    val `pureconfig`        = "0.17.4"
+    val fs2                 = "3.8.0"
+    val circe               = "0.14.5"
+    val http4s              = "1.0.0-M40"
+    val skunk               = "0.6.0"
+    val lepus               = "0.4.1"
+    val `named-codec-circe` = "0.1.0"
+    val munit               = "1.0.0-M7"
+    val `munit-cats`        = "1.0.7"
   }
 
   lazy val cats: Seq[ModuleID] = Seq(
@@ -35,6 +36,11 @@ object Dependencies {
     "co.fs2" %% "fs2-reactive-streams"
   ).map(_ % Version.fs2)
 
+  lazy val circe: Seq[ModuleID] = Seq(
+    "io.circe" %% "circe-core",
+    "io.circe" %% "circe-generic"
+  ).map(_ % Version.circe)
+
   lazy val http4s: Seq[ModuleID] = Seq(
     "org.http4s" %% "http4s-core",
     "org.http4s" %% "http4s-server",
@@ -48,12 +54,14 @@ object Dependencies {
   ).map(_ % Version.skunk)
 
   lazy val lepus: Seq[ModuleID] = Seq(
-    "dev.hnaderi" %% "lepus-client"
+    "dev.hnaderi" %% "lepus-client",
+    "dev.hnaderi" %% "lepus-std",
+    "dev.hnaderi" %% "lepus-circe"
   ).map(_ % Version.lepus)
 
-  lazy val `named-codec`: Seq[ModuleID] = Seq(
-    "dev.hnaderi" %% "named-codec"
-  ).map(_ % Version.`named-codec`)
+  lazy val `named-codec-circe`: Seq[ModuleID] = Seq(
+    "dev.hnaderi" %% "named-codec-circe"
+  ).map(_ % Version.`named-codec-circe`)
 
   lazy val munit: Seq[ModuleID] = Seq(
     "org.scalameta" %% "munit",

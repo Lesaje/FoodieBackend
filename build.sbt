@@ -12,5 +12,5 @@ lazy val root = (project in file("."))
 libraryDependencies ++= dependencies
 
 lazy val dependencies =
-  cats ++ `cats-effect` ++ fs2 ++ pureconfig ++
-    http4s ++ skunk ++ lepus ++ `named-codec` ++ `munit-cats-effect`
+  cats ++ `cats-effect` ++ fs2 ++ circe ++ pureconfig ++
+    http4s ++ skunk ++ lepus ++ `named-codec-circe` ++ `munit-cats-effect`
