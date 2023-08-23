@@ -13,4 +13,4 @@ libraryDependencies ++= dependencies
 
 lazy val dependencies =
   cats ++ `cats-effect` ++ fs2 ++ pureconfig ++
-    http4s ++ skunk ++ lepus ++ `munit-cats-effect`
+    http4s ++ skunk ++ lepus ++ `munit-cats-effect` :+ "dev.hnaderi" %% "named-codec" % "0.1.0"
