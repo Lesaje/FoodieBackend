@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2288bc42-8202-4597-9376-a3640ae39b6c" name="Changes" comment="main - add pub/sub">
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/scala/main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/project/Dependencies.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/connector/controllers/BasicConnector.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/Dependencies.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/app/initial.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/db/connector/controllers/empty.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/db/connector/view/empty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/scala/db/connector/view/empty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/db/model/empty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/empty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/db/pubsub/controllers/empty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/scala/db/pubsub/controllers/PubSub.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/db/pubsub/view/PubSub.scala" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/scala/db/pubsub/view/PubSub.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/initial.scala" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/db">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lesaje&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8738016d-74f5-482b-97ef-b95d12f9a502" />
+        <option name="url" value="https://github.com/Lesaje/FoodieBackend.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TvxpA3gr7jSE0MaQLIAJnkUmZa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuver/Documents/Scala/Foodie/db/src/main/scala&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db/src/main/scala" />
+    </key>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="scala3DisclaimerShown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2288bc42-8202-4597-9376-a3640ae39b6c" name="Changes" comment="" />
+      <created>1691937538034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691937538034</updated>
+      <workItem from="1691937539535" duration="47000" />
+      <workItem from="1691937664288" duration="804000" />
+      <workItem from="1692007611604" duration="645000" />
+      <workItem from="1692274057763" duration="614000" />
+      <workItem from="1692274685125" duration="1667000" />
+      <workItem from="1692628626212" duration="1858000" />
+      <workItem from="1692694749674" duration="36000" />
+      <workItem from="1692815702651" duration="370000" />
+      <workItem from="1692816089983" duration="2013000" />
+      <workItem from="1692819646032" duration="628000" />
+      <workItem from="1692820292865" duration="3645000" />
+      <workItem from="1692859243709" duration="256000" />
+    </task>
+    <task id="LOCAL-00001" summary="main - initial">
+      <option name="closed" value="true" />
+      <created>1692795477944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692795477944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="main - add pub/sub">
+      <option name="closed" value="true" />
+      <created>1692821319165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692821319165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main - initial commit" />
+    <MESSAGE value="main - initial structure" />
+    <MESSAGE value="main - initial" />
+    <MESSAGE value="main - add pub/sub" />
+    <option name="LAST_COMMIT_MESSAGE" value="main - add pub/sub" />
+  </component>
+</project>

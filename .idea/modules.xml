@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/.idea/modules/app-build.iml" filepath="$PROJECT_DIR$/app/.idea/modules/app-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/db.iml" filepath="$PROJECT_DIR$/.idea/modules/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db/.idea/modules/db-build.iml" filepath="$PROJECT_DIR$/db/.idea/modules/db-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodie.iml" filepath="$PROJECT_DIR$/.idea/modules/foodie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodie-build.iml" filepath="$PROJECT_DIR$/.idea/modules/foodie-build.iml" />
+    </modules>
+  </component>
+</project>
