@@ -1,5 +1,9 @@
 package db.model
 
+import db.model.Dish.Dish
+import db.model.Manager.ManagerId
+import db.model.Restaurant.RestaurantId
+
 import java.time.LocalTime
 import java.util.UUID
 
@@ -20,11 +24,11 @@ object Order {
                    paymentType: PaymentType)
 
 
-  private enum PaymentType:
+  enum PaymentType:
     case Card extends PaymentType
     case Cash extends PaymentType
 
-  private enum Status:
+  enum Status:
     case Created extends Status
     case InProgress extends Status
     case Ready extends Status

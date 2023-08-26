@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" />
     <option name="customVMPath" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
@@ -13,6 +14,7 @@
           </set>
         </option>
         <option name="preferScala2" value="false" />
+        <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="1.9.2" />
         <option name="useSbtShellForBuild" value="true" />
         <option name="useSbtShellForImport" value="true" />
@@ -26,6 +28,7 @@
           </set>
         </option>
         <option name="preferScala2" value="false" />
+        <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="1.9.3" />
       </SbtProjectSettings>
       <SbtProjectSettings>
@@ -37,6 +40,7 @@
           </set>
         </option>
         <option name="preferScala2" value="false" />
+        <option name="resolveSbtClassifiers" value="true" />
         <option name="sbtVersion" value="1.9.3" />
       </SbtProjectSettings>
     </option>
