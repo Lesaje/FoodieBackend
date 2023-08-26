@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
     <option name="linkedExternalProjectsSettings">
       <SbtProjectSettings>
         <option name="converterVersion" value="1" />
@@ -11,7 +12,10 @@
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
+        <option name="preferScala2" value="false" />
         <option name="sbtVersion" value="1.9.2" />
+        <option name="useSbtShellForBuild" value="true" />
+        <option name="useSbtShellForImport" value="true" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
@@ -21,6 +25,7 @@
             <option value="$PROJECT_DIR$/app/project" />
           </set>
         </option>
+        <option name="preferScala2" value="false" />
         <option name="sbtVersion" value="1.9.3" />
       </SbtProjectSettings>
       <SbtProjectSettings>
@@ -31,6 +36,7 @@
             <option value="$PROJECT_DIR$/db/project" />
           </set>
         </option>
+        <option name="preferScala2" value="false" />
         <option name="sbtVersion" value="1.9.3" />
       </SbtProjectSettings>
     </option>

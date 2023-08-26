@@ -2,11 +2,14 @@ package db.model
 
 import java.util.UUID
 
-opaque type RestaurantId = UUID
+object Restaurant {
 
-object RestaurantId:
-  def apply(restaurantId: UUID): RestaurantId = restaurantId
+  opaque type RestaurantId = UUID
 
-case class Restaurant(id: RestaurantId,
-                      name: String,
-                      address: Address)
+  object RestaurantId:
+    def apply(restaurantId: UUID): RestaurantId = restaurantId
+
+  case class Restaurant(id: RestaurantId,
+                        name: String,
+                        address: Address)
+}

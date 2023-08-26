@@ -12,4 +12,4 @@ lazy val root = (project in file("."))
 libraryDependencies ++= dependencies
 
 lazy val dependencies =
-  circe ++ skunk ++ lepus ++ `named-codec-circe`
+  circe ++ skunk ++ lepus ++ `named-codec-circe` ++ http4s

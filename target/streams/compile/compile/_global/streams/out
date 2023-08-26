@@ -1,2 +1,2 @@
-[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/kuver/Documents/Scala/Foodie/project/target/.sbt-compilation-infos/foodie-compile/.sbt-idea-lock ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/kuver/Documents/Scala/Foodie/project/target/.sbt-compilation-infos/foodie-compile/.sbt-idea-lock.[0m
+[debug] Acquiring lock on file D:\Scala\FoodieBackend\project\target\.sbt-compilation-infos\foodiebackend-compile\.sbt-idea-lock ...
+[debug] Releasing lock on file D:\Scala\FoodieBackend\project\target\.sbt-compilation-infos\foodiebackend-compile\.sbt-idea-lock.

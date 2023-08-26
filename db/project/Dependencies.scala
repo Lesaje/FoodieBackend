@@ -7,6 +7,7 @@ object Dependencies {
     val lepus               = "0.4.1"
     val circe               = "0.14.5"
     val `named-codec-circe` = "0.1.0"
+    val http4s              = "1.0.0-M40"
   }
 
   lazy val skunk: Seq[ModuleID] = Seq(
@@ -27,5 +28,13 @@ object Dependencies {
     "io.circe" %% "circe-core",
     "io.circe" %% "circe-generic"
   ).map(_ % Version.circe)
+
+  lazy val http4s: Seq[ModuleID] = Seq(
+    "org.http4s" %% "http4s-core",
+    "org.http4s" %% "http4s-server",
+    "org.http4s" %% "http4s-ember-client",
+    "org.http4s" %% "http4s-ember-server",
+    "org.http4s" %% "http4s-dsl"
+  ).map(_ % Version.http4s)
 
 }

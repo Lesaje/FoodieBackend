@@ -2,10 +2,13 @@ package db.model
 
 import java.util.UUID
 
-opaque type ImageId = UUID
+object Image {
 
-object ImageId:
-  def apply(imageId: UUID): ImageId = imageId
+  opaque type ImageId = UUID
 
-case class Image(imageId: UUID,
-                imageLink: String)
+  object ImageId:
+    def apply(imageId: UUID): ImageId = imageId
+
+  case class Image(imageId: UUID,
+                   imageLink: String)
+}
