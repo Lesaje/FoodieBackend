@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2288bc42-8202-4597-9376-a3640ae39b6c" name="Changes" comment="main - divided project into 2 modules, added basic DbConnector, cleared dependencies">
-      <change afterPath="$PROJECT_DIR$/db/src/main/scala/Main.scala" afterDir="false" />
+    <list default="true" id="2288bc42-8202-4597-9376-a3640ae39b6c" name="Changes" comment="db - added Main object">
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Address.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Dish.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Image.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Manager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Menu.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Name.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Order.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/src/main/scala/main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/scala/db/model/empty.scala" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/scala/db/model/Restaurant.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +114,14 @@
       <recent name="$PROJECT_DIR$/db/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="db" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PubSub" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="db.pubsub.controllers.PubSub" />
       <module name="db" />
@@ -107,8 +135,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PubSub" />
       </list>
     </recent_temporary>
@@ -136,7 +173,7 @@
       <workItem from="1692819646032" duration="628000" />
       <workItem from="1692820292865" duration="3645000" />
       <workItem from="1692859243709" duration="1248000" />
-      <workItem from="1693049845286" duration="2026000" />
+      <workItem from="1693049845286" duration="6158000" />
     </task>
     <task id="LOCAL-00001" summary="main - initial">
       <option name="closed" value="true" />
@@ -170,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692859762123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="db - added Main object">
+      <option name="closed" value="true" />
+      <created>1693056848001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693056848001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +238,7 @@
     <MESSAGE value="main - initial" />
     <MESSAGE value="main - add pub/sub" />
     <MESSAGE value="main - divided project into 2 modules, added basic DbConnector, cleared dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="main - divided project into 2 modules, added basic DbConnector, cleared dependencies" />
+    <MESSAGE value="db - added Main object" />
+    <option name="LAST_COMMIT_MESSAGE" value="db - added Main object" />
   </component>
 </project>
