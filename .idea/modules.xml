@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/.idea/modules/FoodieBackend.app.project.app-build.iml" filepath="$PROJECT_DIR$/app/.idea/modules/FoodieBackend.app.project.app-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db/.idea/modules/FoodieBackend.db.project.db-build.iml" filepath="$PROJECT_DIR$/db/.idea/modules/FoodieBackend.db.project.db-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/.idea/modules/app-build.iml" filepath="$PROJECT_DIR$/app/.idea/modules/app-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/.idea/modules/app.project.app-build.iml" filepath="$PROJECT_DIR$/app/.idea/modules/app.project.app-build.iml" />

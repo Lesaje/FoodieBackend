@@ -1,28 +1,18 @@
 package db.model
 
-import db.model.Dish.Dish
-import db.model.Manager.ManagerId
-import db.model.Restaurant.RestaurantId
+import db.model.Dish
+import db.model.Manager
+import db.model.Restaurant
 
-import java.time.LocalTime
+import java.time.{LocalTime, Instant}
 import java.util.UUID
 
-object Order {
+object Order:
 
-  opaque type OrderId = UUID
+  opaque type OrderId <: UUID = UUID
 
   object OrderId:
     def apply(orderId: UUID): OrderId = orderId
-
-  case class Order(orderId: OrderId,
-                   restaurantId: RestaurantId,
-                   option: Option[ManagerId],
-                   dishes: List[Dish],
-                   createdAt: LocalTime,
-                   updatedAt: LocalTime,
-                   status: Status,
-                   paymentType: PaymentType)
-
 
   enum PaymentType:
     case Card extends PaymentType
@@ -34,4 +24,14 @@ object Order {
     case Ready extends Status
     case Completed extends Status
 
-}
+end Order
+
+case class Order(orderId: Order.OrderId,
+                 restaurantId: Restaurant.RestaurantId,
+                 option: Option[Manager.ManagerId],
+                 dishes: List[Dish.DishId],
+                 createdAt: Instant,
+                 updatedAt: Instant,
+                 status: Order.Status,
+                 paymentType: Order.PaymentType)
+

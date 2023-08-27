@@ -1,9 +1,9 @@
 package db.model
 
-import db.model.Dish.Dish
-import db.model.Image.ImageId
-import db.model.Restaurant.RestaurantId
+import db.model.Dish
+import db.model.Image
+import db.model.Restaurant
 
-case class Menu(restaurantId: RestaurantId, menuItems: List[MenuItem])
+case class Menu(restaurantId: Restaurant.RestaurantId, menuItems: List[MenuItem])
 
-private case class MenuItem(dish: Dish, availability: Boolean, imageId: ImageId)
+private case class MenuItem(dishId: Dish.DishId, availability: Boolean, imageId: Image.ImageId)
