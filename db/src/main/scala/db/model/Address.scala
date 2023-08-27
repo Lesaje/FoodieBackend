@@ -4,7 +4,7 @@ object Address:
   enum City:
     case Kharkiv, Kyiv, Lviv, Odessa, Dnipro
 
-end Adress
+end Address
 
 case class Address(city: Address.City,
                    district: Option[String],

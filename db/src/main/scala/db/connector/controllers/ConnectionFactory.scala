@@ -11,7 +11,7 @@ import skunk.util.Typer
 import scala.concurrent.duration.Duration
 
 class ConnectionFactory extends  db.connector.view.ConnectionFactory {
-  def createConnection(dbConfig: DbConfig): Resource[IO, Resource[IO, Session[IO]]] = Session.pooled[IO](
+  /*def createConnection(dbConfig: DbConfig): Resource[IO, Resource[IO, Session[IO]]] = Session.pooled[IO](
     host = dbConfig.host,
     port = dbConfig.port,
     user = dbConfig.username,
@@ -27,5 +27,5 @@ class ConnectionFactory extends  db.connector.view.ConnectionFactory {
     queryCache = dbConfig.queryCache,
     parseCache = dbConfig.parseCache,
     readTimeout = dbConfig.readTimeout
-  )
+  )*/
 }

@@ -1,6 +1,8 @@
 package db.service
 
-import db.model.Restaurant.City
+import cats.effect.IO
+import db.model.Restaurant
+import db.model.Address.City
 
 class RestaurantRepositoryService {
 

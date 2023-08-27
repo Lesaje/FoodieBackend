@@ -6,12 +6,15 @@ import org.http4s.dsl.Http4sDsl
 import org.http4s.implicits.*
 import org.http4s.dsl.io.*
 import org.http4s.HttpRoutes
+import db.model.Address.City
+import cats.effect.IO
+import org.http4s.circe._
 
 class RestaurantController(restaurantRepositoryService: RestaurantRepositoryService) {
 
   val restaurantRoutes: HttpRoutes[IO] = HttpRoutes.of {
     case req @ GET -> Root / "api" / "v1" / "restaurants" / city ⇒
-      restaurantRepositoryService.findRestaurants(City.valueOf(city.substring(0, 1).toUpperCase + city.substring(1))).flatMap(Ok(_))
+      Ok(restaurantRepositoryService.findRestaurants(City.valueOf(city.substring(0, 1).toUpperCase + city.substring(1))))
   }
 
 

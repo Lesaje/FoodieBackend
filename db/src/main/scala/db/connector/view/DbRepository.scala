@@ -2,9 +2,9 @@ package db.connector.view
 
 import cats.effect.{IO, Resource}
 import db.model.*
-import db.model.Manager.Manager
-import db.model.Order.Order
-import db.model.Restaurant.{Restaurant, RestaurantId}
+import db.model.Manager
+import db.model.Order
+import db.model.Restaurant.RestaurantId
 import skunk.Session
 
 trait DbRepository(session: Resource[IO, Session[IO]]) {
