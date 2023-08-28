@@ -3,15 +3,22 @@ package db.model
 import java.time.LocalDate
 import java.util.UUID
 
-object Manager {
+object Manager:
 
-  opaque type ManagerId = UUID
+  opaque type ManagerId <: UUID = UUID
 
   object ManagerId:
     def apply(managerId: UUID): ManagerId = managerId
 
-  case class Manager(name: Name,
-                     restaurantId: UUID,
-                     employedAt: LocalDate)
+  opaque type PhoneNumber = String
 
-}
+  object PhoneNumber:
+    def apply(phoneNumber: String): PhoneNumber = phoneNumber
+
+end Manager
+
+case class Manager(managerId: Manager.ManagerId,
+                   name: Name,
+                   phoneNumber: Manager.PhoneNumber,
+                   restaurantId: Restaurant.RestaurantId,
+                   employedAt: LocalDate)

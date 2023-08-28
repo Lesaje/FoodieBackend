@@ -2,8 +2,8 @@ package db.connector.controllers
 
 import cats.effect.{IO, Resource}
 import db.model.*
-import db.model.Manager.Manager
-import db.model.Order.Order
+import db.model.Manager
+import db.model.Order
 import db.model.Restaurant._
 import skunk.Session
 

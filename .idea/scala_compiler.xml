@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="Foodie,app,db,foodie,foodiebackend" />
+    <profile name="sbt 1" modules="Foodie,FoodieBackend,app,db,foodie,foodiebackend" />
   </component>
 </project>

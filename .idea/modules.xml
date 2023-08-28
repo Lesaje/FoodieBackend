@@ -8,8 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/db.iml" filepath="$PROJECT_DIR$/.idea/modules/db.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/.idea/modules/db-build.iml" filepath="$PROJECT_DIR$/db/.idea/modules/db-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/.idea/modules/db.project.db-build.iml" filepath="$PROJECT_DIR$/db/.idea/modules/db.project.db-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodiebackend.iml" filepath="$PROJECT_DIR$/.idea/modules/foodiebackend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodiebackend-build.iml" filepath="$PROJECT_DIR$/.idea/modules/foodiebackend-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodie.iml" filepath="$PROJECT_DIR$/.idea/modules/foodie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodie-build.iml" filepath="$PROJECT_DIR$/.idea/modules/foodie-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/.idea/modules/project.app-build.iml" filepath="$PROJECT_DIR$/app/.idea/modules/project.app-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/db/.idea/modules/project.db-build.iml" filepath="$PROJECT_DIR$/db/.idea/modules/project.db-build.iml" />
     </modules>
