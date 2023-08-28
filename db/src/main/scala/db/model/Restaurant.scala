@@ -1,6 +1,8 @@
 package db.model
 
 import java.util.UUID
+import io.circe.Codec
+import db.model.coders.given
 
 object Restaurant:
 
@@ -13,5 +15,5 @@ end Restaurant
 
 case class Restaurant(restaurantId: Restaurant.RestaurantId,
                       name: String,
-                      address: Address)
+                      address: Address) derives Codec.AsObject
 

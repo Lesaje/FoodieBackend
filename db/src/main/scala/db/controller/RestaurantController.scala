@@ -9,6 +9,7 @@ import org.http4s.HttpRoutes
 import db.model.Address.City
 import cats.effect.IO
 import org.http4s.circe._
+import org.http4s.circe.CirceEntityCodec.circeEntityEncoder
 
 class RestaurantController(restaurantRepositoryService: RestaurantRepositoryService) {
 

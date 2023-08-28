@@ -5,6 +5,7 @@ import org.http4s.dsl.Http4sDsl
 import org.http4s.implicits.*
 import org.http4s.dsl.io._
 import org.http4s.circe._
+import org.http4s.circe.CirceEntityCodec.circeEntityEncoder
 import org.http4s.HttpRoutes
 import cats.effect.IO
 
